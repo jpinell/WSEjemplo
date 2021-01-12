@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiWS", "MiWS\MiWS.csproj", "{3E4F3A3A-88C6-4889-835F-967818114EC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWS", "ClienteWS\ClienteWS.csproj", "{91F0EE85-1E2B-4F3E-BEA9-433CB52B19A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E4F3A3A-88C6-4889-835F-967818114EC1} = {3E4F3A3A-88C6-4889-835F-967818114EC1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{3E4F3A3A-88C6-4889-835F-967818114EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E4F3A3A-88C6-4889-835F-967818114EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E4F3A3A-88C6-4889-835F-967818114EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F0EE85-1E2B-4F3E-BEA9-433CB52B19A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F0EE85-1E2B-4F3E-BEA9-433CB52B19A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F0EE85-1E2B-4F3E-BEA9-433CB52B19A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F0EE85-1E2B-4F3E-BEA9-433CB52B19A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
