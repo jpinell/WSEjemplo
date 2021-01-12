@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
 
 namespace MiWS
 {
@@ -14,11 +9,11 @@ namespace MiWS
     {
         [OperationContract]
         Persona ObtenerPersona(string Identificacion);
-        
+
     }
 
     [DataContract]
-    public class Persona:BaseRespuesta
+    public class Persona : BaseRespuesta
     {
         [DataMember]
         public string Nombre { get; set; }
